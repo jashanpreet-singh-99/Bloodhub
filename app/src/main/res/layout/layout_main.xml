@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_top_20"
+        android:elevation="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:textAllCaps="true"
+            android:layout_centerInParent="true"
+            android:padding="4dp"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:elevation="1dp"
+            android:padding="16dp"
+            android:layout_marginTop="120dp"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <RelativeLayout
+                    android:id="@+id/profile_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/rounded_solid_20"
+                    android:elevation="4dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:contentDescription="@string/app_name"
+                        android:duplicateParentState="true"
+                        android:src="@drawable/ic_profile" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/blood_request_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/rounded_solid_20"
+                    android:elevation="4dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:contentDescription="@string/app_name"
+                        android:duplicateParentState="true"
+                        android:src="@drawable/ic_blood" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_margin="4dp"
+                    android:textColor="@color/fab1"
+                    android:textAlignment="center"
+                    android:text="@string/profile"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textAllCaps="true"
+                    android:padding="4dp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_margin="4dp"
+                    android:textColor="@color/fab1"
+                    android:textAlignment="center"
+                    android:text="@string/request_blood_now"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textAllCaps="true"
+                    android:padding="4dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <RelativeLayout
+                    android:id="@+id/appointment_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_margin="4dp"
+                    android:elevation="4dp"
+                    android:background="@drawable/rounded_solid_20">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:duplicateParentState="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/ic_calender_light" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/view_appointments_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_margin="4dp"
+                    android:elevation="4dp"
+                    android:background="@drawable/rounded_solid_20">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:duplicateParentState="true"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/ic_confirmed" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_margin="4dp"
+                    android:textColor="@color/fab1"
+                    android:textAlignment="center"
+                    android:text="@string/book_appointment"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textAllCaps="true"
+                    android:padding="4dp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_margin="4dp"
+                    android:textColor="@color/fab1"
+                    android:textAlignment="center"
+                    android:text="@string/confirmed_appointments"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textAllCaps="true"
+                    android:padding="4dp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/logout_btn"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/logout"
+                android:elevation="0dp"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:layout_margin="16dp"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_solid_20"
+                android:backgroundTint="@color/fab1"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

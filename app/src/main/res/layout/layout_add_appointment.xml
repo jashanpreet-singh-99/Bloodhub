@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_top_20"
+        android:elevation="8dp">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_back"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:background="@color/transparent"
+            android:contentDescription="@string/back_button" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:textAllCaps="true"
+            android:layout_centerInParent="true"
+            android:padding="4dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/organization"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textSize="18sp"/>
+
+        <Spinner
+            android:id="@+id/org_spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:overlapAnchor="false"
+            android:dropDownWidth="match_parent"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:backgroundTint="@color/fab1"
+            style="@android:style/Widget.Material.Light.Spinner" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/prompt_date"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            />
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textColor="@color/fab1"
+            android:textColorHint="@color/fab2"
+            android:backgroundTint="@color/fab1"
+            android:importantForAutofill="no"
+            android:padding="12dp"
+            android:drawableEnd="@drawable/ic_calendar"
+            android:inputType="datetime"
+            android:editable="false"
+            tools:ignore="LabelFor" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/prompt_time"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            />
+
+        <EditText
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:textColor="@color/fab1"
+            android:textColorHint="@color/fab2"
+            android:backgroundTint="@color/fab1"
+            android:importantForAutofill="no"
+            android:padding="12dp"
+            android:editable="false"
+            android:drawableEnd="@drawable/ic_time"
+            android:inputType="datetime"
+            tools:ignore="LabelFor" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transport_required"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/transport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="4dp">
+
+            <RadioButton
+                android:id="@+id/yes_transport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:textColor="@color/black"
+                android:buttonTint="@color/black"
+                android:text="@string/yes" />
+
+            <RadioButton
+                android:id="@+id/no_transport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="@string/no"
+                android:buttonTint="@color/black"
+                android:textColor="@color/black"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/request_btn"
+        style="?android:textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/action_submit_request"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/button_type_1_filled" />
+
+
+</LinearLayout>

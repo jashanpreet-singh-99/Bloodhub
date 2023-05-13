@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/drawable-v24/button_type_1_filled.xml" value="0.2255" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/drawable/bottom_outline_btn.xml" value="0.3215" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/drawable/button_type_1.xml" value="0.2255" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/drawable/button_type_1_filled.xml" value="0.2255" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/drawable/round_btn.xml" value="0.255" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/drawable/rounded_solid_20.xml" value="0.3215" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/drawable/rounded_top_20.xml" value="0.3215" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/app_bar_main2.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/content_main2.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/dialog_appointment_submit.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/dialog_blood_request_submit.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/dialog_date.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/dialog_time.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/item_appointments.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/item_blood_requests.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/layout_add_appointment.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/layout_add_emergency_request.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/layout_emergency_request.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/layout_first_screen.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/layout_forget_password.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/layout_login_activity.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/layout_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/layout_main_org.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/layout_profile_view.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/layout_register_ind.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/layout_register_org.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/layout_splashscreen.xml" value="0.375" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/layout_view_appointments.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/jasha/AndroidStudioProjects/BloodHub/app/src/main/res/layout/litem_spinner_view.xml" value="0.38697916666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

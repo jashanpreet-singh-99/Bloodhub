@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blood_groups">
+        <item>A+</item>
+        <item>B+</item>
+        <item>AB+</item>
+        <item>O+</item>
+        <item>A-</item>
+        <item>B-</item>
+        <item>AB-</item>
+        <item>O-</item>
+    </string-array>
+
+    <string-array name="diagnosis">
+        <item>Surgery</item>
+        <item>Accident</item>
+        <item>Blood Disease</item>
+        <item>Infection</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="bag_quantity">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="organizations_array">
+        <!--Public-->
+        <item>The Children\'s Hospital</item>
+        <item>Jinnah Hospital</item>
+        <item>Lady Aitchison Hospital</item>
+        <item>Lady Willingdon Hospital</item>
+        <item>Lahore General Hospital</item>
+        <item>Mayo Hospital</item>
+        <item>Nawaz Sharif Social Security Hospital</item>
+        <item>Punjab Institute of Cardiology</item>
+        <item>Punjab Social Security Hospital</item>
+        <item>Railway Karen Hospital</item>
+        <item>Services Hospital</item>
+        <item>Punjab Institute of Mental Health</item>
+        <item>Shaikh Zayed Hospital</item>
+        <item>Sir Ganga Ram Hospital</item>
+        <item>Janki Devi Hospital</item>
+        <item>Wapda Hospital</item>
+        <!--Semi-private-->
+        <item>Gulab Devi Chest Hospital</item>
+        <!--Private-->
+        <item>Bilqees Sarwar Hospital</item>
+        <item>ZhongBa Hospital</item>
+        <item>Aadil Hospital</item>
+        <item>Al-Khidmat Hospital</item>
+        <item>Ali Eye Hospital</item>
+        <item>Arif Memorial Teaching Hospital</item>
+        <item>Avicenna Hospital</item>
+        <item>Bahria Town Hospital</item>
+        <item>Bajwa Hospital</item>
+        <item>City Hospital</item>
+        <item>Combined Military Hospital</item>
+        <item>Chaudhary Muhammad Akram Teaching &amp; Research Hospital</item>
+        <item>Doctors Hospital</item>
+        <item>Farooq Hospital</item>
+        <item>Fatima Memorial Hospital</item>
+        <item>Family Hospital</item>
+        <item>Fauji Foundation Hospital</item>
+        <item>Ganj Baksh Spinal Research &amp; Rehabilitation Hospital</item>
+        <item>Ghurki Trust Hospital</item>
+        <item>Gulberg Hospital</item>
+        <item>Hameedah Memorial Hospital</item>
+        <item>Haleema Memorial Foundation Hospital</item>
+        <item>Hameed Latif Hospital</item>
+        <item>Hijaz Hospital</item>
+        <item>Ittefaq Hospital</item>
+        <item>Masood Hospital</item>
+        <item>Mid City Hospital</item>
+        <item>Mumtaz Bukhtawar Memorial Trust Hospital</item>
+        <item>National Hospital</item>
+        <item>Prime Care Hospital</item>
+        <item>Ramzan Ali Memorial Hospital</item>
+        <item>Salma Sarfraz Hospital</item>
+        <item>Shalamar Hospital</item>
+        <item>Shaukat Khanum Memorial Cancer Hospital &amp; Research Centre</item>
+        <item>Omar Hospital &amp; Carddiac Center</item>
+        <item>Surgimed Hospital</item>
+        <item>Surraya Azeem Hospital</item>
+        <item>Makhdoom Hospital</item>
+        <item>Zahida Welfare hospital</item>
+        <item>Mumtaz Bukhtawar Memorial Trust Hospital</item>
+        <item>University Dental Hospital</item>
+        <item>University Teaching Hospital</item>
+        <item>Zia Hospital</item>
+        <item>Dental Consultants</item>
+        <item>Health Bridge Hospital</item>
+    </string-array>
+
+    <string-array name="num_days">
+        <item>8</item>
+        <item>16</item>
+        <item>24</item>
+        <item>32</item>
+        <item>40</item>
+        <item>48</item>
+        <item>56</item>
+        <item>64</item>
+        <item>72</item>
+        <item>80</item>
+        <item>88</item>
+        <item>96</item>
+    </string-array>
+
+</resources>
